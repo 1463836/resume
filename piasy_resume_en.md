@@ -19,7 +19,7 @@ I’m Piasy (建林，许). I receive my Bachelor degree on Computer Science in 
   : 2 years practice on app development, with solid experience about architecture, TDD, reactive programming, RESTful API call, data management, custom view and interaction, and performance tuning. Now I'm thinking more deeply about software engineering and project management.
 
 * Golang web backend
-  : Some experience about building RESTful API server, TDD and database design. I'v built two RESTful API servers with Beego frame work, storing data in MongoDB and MySQL database.
+  : Some experience about building RESTful API server, TDD and database design. I'v built two RESTful API servers with Beego framework, storing data in MongoDB and MySQL database.
 
 * React & React Native
   : Just start learning and doing some practice. The advantage of learn once, write everywhere is very compeling to me.
