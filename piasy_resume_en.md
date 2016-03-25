@@ -9,7 +9,7 @@
 
 ### Profile {#profile}
 
-I’m Piasy (建林，许). I receive my Bachelor degree on Computer Science in Tsinghua University. During my college time, I did internship in Baidu, Inc. and YOUNG team, maintaining C++ platform and develop Android client respectively. I appreciate technology, love technology, and enjoy dealing real-life challenge, improving productivity, and making life more colorful, with technology. Now I’m focusing on Android development, but my sight will never be limited in it, instead I’ll be excited to know awesome technologies in every field. I do believe what one of my mentor in college said: We are not genius, but we could become more excellent than most of others with harder working. And I am now on my way to become an expert. My dev blog is [http://blog.piasy.com/](http://blog.piasy.com/).
+I’m Piasy (建林，许). I receive my Bachelor degree on Computer Science in Tsinghua University. Now I'm doing Android development at YOLO, a mobile live streaming app. I appreciate technology, love technology, and enjoy dealing real-life challenge, improving productivity, and making life more colorful, with technology. Now I’m focusing on Android development, but my sight will never be limited in it, instead I’ll be excited to know awesome technologies in every field. I do believe what one of my mentor in college said: We are not genius, but we could become more excellent than most of others with harder working. And I am now on my way to become an expert. My dev blog is [http://blog.piasy.com/](http://blog.piasy.com/), and my Github profile is [https://github.com/Piasy/](https://github.com/Piasy/).
 
 ------
 
@@ -44,8 +44,8 @@ I’m Piasy (建林，许). I receive my Bachelor degree on Computer Science in 
 
 Beijing Youluoshidai Technology Co.,Ltd. (Start up)
 : *Android Engineer*
-  __2013.05-now__
-  Develop and maintain the best mobile Live app: YOLO.
+  __2015.05-now__
+  Develop and maintain the best mobile live streaming app: YOLO.
 
 XueBa(Beijing) technology development Co., LTD (Start up)
 : *R&D Internship*
