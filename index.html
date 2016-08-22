@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>许建林 | 安卓研发工程师</title>
+<style type="text/css">
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+audio:not([controls]) {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+html,
+button,
+input,
+select,
+textarea {
+  font-family: serif;
+}
+body {
+  margin: 0;
+}
+a:focus {
+  outline: thin dotted;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+blockquote {
+  margin: 1em 40px;
+}
+dfn {
+  font-style: italic;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+p,
+pre {
+  margin: 1em 0;
+}
+pre,
+code,
+kbd,
+samp {
+  font-family: serif;
+  font-size: 1em;
+}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+q {
+  quotes: none;
+}
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+small {
+  font-size: 75%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+dd {
+  margin: 0 0 0 40px;
+}
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 0;
+}
+form {
+  margin: 0;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+button,
+input {
+  line-height: normal;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  *overflow: visible;
+}
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body.pdf {
+  color: black;
+}
+body.pdf a {
+  text-decoration: none;
+  color: black;
+}
+body.pdf .container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  background: none;
+  border: none;
+  border-width: 8px 0 2px 0;
+  text-align: left;
+}
+body.pdf .resume {
+  position: relative;
+  padding: 40px 80px;
+}
+body.pdf a[href$='.pdf'] {
+  display: none;
+}
+body.pdf h1 {
+  letter-spacing: 0;
+  margin-top: 0;
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+body.pdf h2 {
+  letter-spacing: 0;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: normal;
+}
+body.pdf h3 {
+  float: left;
+  width: 16%;
+  font-style: normal;
+}
+body.pdf h3+p {
+  float: left;
+  width: 78%;
+}
+body.pdf blockquote {
+  top: 40px;
+  right: 50px;
+  position: absolute;
+}
+body.pdf ul li {
+  width: 33%;
+  float: left;
+}
+body.pdf ul dl {
+  margin: 0;
+  padding: 0.3em 0 0;
+}
+body.pdf ul dl dt {
+  font-size: 122%;
+  font-weight: normal;
+  margin: 0 0 .75em;
+}
+body.pdf ul dl dd {
+  padding: 0 2em 0 0;
+}
+body.pdf ol {
+  float: left;
+  width: 79%;
+  margin: .7em 0 0;
+}
+body.pdf ol li {
+  width: 33%;
+  margin: 0;
+}
+body.pdf ol li:nth-child(3n) {
+  width: 34%;
+}
+body.pdf ol li:nth-child(1),
+body.pdf ol li:nth-child(2),
+body.pdf ol li:nth-child(3) {
+  border-top: none;
+}
+body.pdf dl {
+  margin: .7em 0 0;
+  page-break-inside: avoid !important;
+  display: block;
+  width: 79%;
+  float: left;
+}
+body.pdf dl strong {
+  float: right;
+  margin-top: -2em;
+}
+body.pdf dl em {
+  font-size: 130%;
+  font-style: normal;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: ".";
+}
+body {
+  font-family: serif;
+  color: #444;
+}
+h1,
+h2,
+h3,
+h4,
+ul dl dt {
+  font-family: serif;
+}
+.container {
+  margin: 0 auto;
+  padding: 0;
+  background: whiteSmoke;
+  border: solid #666;
+  border-width: 8px 0 2px 0;
+  text-align: left;
+}
+.resume {
+  position: relative;
+  padding: 10px 20px;
+}
+a {
+  color: #990003;
+}
+a[href$='.pdf'] {
+  display: inline-block;
+  background: #666;
+  color: white;
+  padding: 6px 12px;
+  margin-bottom: 6px;
+  text-decoration: none;
+}
+blockquote {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4em;
+}
+hr {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 18px auto;
+  width: 100%;
+  clear: both;
+  border: none;
+  border-top: 1px solid #CCC;
+  font-size: 1px;
+  line-height: 0;
+  overflow: visible;
+  page-break-after: avoid;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  letter-spacing: -1px;
+  font-weight: normal;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-style: italic;
+  letter-spacing: -1px;
+  font-weight: normal;
+}
+h3 {
+  margin: 0px 20px;
+  padding: 0 0 .5em;
+  font-size: 150%;
+  font-style: italic;
+  font-weight: normal;
+}
+h3+p {
+  margin: .6em 0 16px;
+  padding: 0;
+  display: block;
+  font-size: 104%;
+  line-height: 24px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: table;
+}
+ul li {
+  margin: 0;
+  padding: 0;
+}
+ul dl {
+  margin: .3em 0 0;
+  padding: 0;
+  width: 100%;
+}
+ul dl dt {
+  font-size: 100%;
+}
+ul dl dd {
+  margin: 0 0 1em;
+  padding: 0 2em 0 0;
+  font-size: .8em;
+  line-height: 1.5em;
+}
+ol {
+  margin: 0;
+  padding: 0 0 .75em;
+  width: 84%;
+  display: inline-block;
+}
+ol li {
+  margin: 0 0 0 1em;
+  padding: 0;
+  border-top: 1px solid #CCCCCC;
+  width: 100%;
+  float: left;
+  list-style: none;
+  line-height: 24px;
+  font-size: 14px;
+}
+ol li:nth-child(1) {
+  border-top: none;
+}
+dl {
+  display: inline-block;
+  width: 78%;
+  margin: 0;
+  padding: 0;
+}
+dl dt {
+  margin: 0;
+  padding: 0;
+  font-size: 140%;
+}
+dl dd {
+  margin: 0 0 1.5em;
+  padding: 0;
+  font-size: 80%;
+  line-height: 1.4em;
+}
+dl strong {
+  display: block;
+}
+dl em {
+  display: block;
+  font-size: 110%;
+  margin: .15em 0 .5em;
+  font-style: bold;
+}
+#footer {
+  display: none;
+}
+#footer + p {
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+}
+
+@media screen and (min-width: 37.5em) {
+  body {
+    padding: 2em 0;
+  }
+  blockquote {
+    top: 10px;
+    right: 50px;
+    position: absolute;
+  }
+  h1 {
+    margin-top: .5em;
+  }
+  ol {
+    margin: 0 0 0 1em;
+  }
+  ol li {
+    width: 50%;
+    margin: 0;
+  }
+  ol li:nth-child(1),
+  ol li:nth-child(2) {
+    border-top: none;
+  }
+}
+@media screen and (min-width: 57em) {
+  .container {
+    width: 912px;
+  }
+  .resume {
+    position: relative;
+    padding: 40px 50px;
+  }
+  blockquote {
+    top: 40px;
+    right: 50px;
+    position: absolute;
+  }
+  h1 {
+    margin-top: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: normal;
+  }
+  h2 {
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-weight: normal;
+  }
+  h3 {
+    float: left;
+    width: 16%;
+  }
+  h3+p {
+    float: left;
+    width: 78%;
+  }
+  ul li {
+    width: 33%;
+    float: left;
+  }
+  ul dl dt {
+    font-size: 122%;
+    font-weight: normal;
+    margin-bottom: .75em;
+  }
+  ul dl dd {
+    padding: 0 2em 0 0;
+  }
+  ol {
+    float: left;
+    width: 79%;
+    margin: .6em 0 0;
+  }
+  ol li {
+    width: 33%;
+    margin: 0;
+  }
+  ol li:nth-child(3n) {
+    width: 34%;
+  }
+  ol li:nth-child(1),
+  ol li:nth-child(2),
+  ol li:nth-child(3) {
+    border-top: none;
+  }
+  dl {
+    margin: .5em 0 0;
+  }
+  dl strong {
+    float: right;
+    margin-top: -2em;
+  }
+  dl em {
+    font-size: 130%;
+    font-style: normal;
+  }
+}
+
+</style>
+</head>
+
+<body class="">
+
+<div class="container">
+    <div class="resume">
+        <h1>许建林</h1>
+
+<h2>安卓研发工程师</h2>
+
+<blockquote>
+  <p><a href="resume.pdf">下载 PDF</a><br />
+  <a href="mailto:xz4215@gmail.com">xz4215@gmail.com</a><br />
+  (86) 188-1065-6221</p>
+</blockquote>
+
+<hr />
+
+<h3 id="profile">简介</h3>
+
+<p>我是许建林(Piasy)，2015年本科毕业于清华大学计算机系，目前就职于 YOLO，负责安卓客户端的设计开发与维护。我热爱技术，喜欢用技术解决现实生活中的问题。我目前专注于安卓应用开发，但视野不局限于此。我认为和团队一起，解决问题，又快又好，这才是最重要的，要做到这一点，解决问题的思路和能力、学习能力、团队协作是关键。我的技术博客：<a href="http://blog.piasy.com/">http://blog.piasy.com/</a>，我的 GitHub 个人主页：<a href="https://github.com/Piasy/">https://github.com/Piasy/</a>。</p>
+
+<hr />
+
+<h3 id="skills">技术栈</h3>
+
+<ul>
+<li><dl>
+<dt>安卓 APP 开发</dt>
+<dd>两年安卓 APP 开发经验，具有扎实的 APP 架构，TDD，响应式编程，RESTful API 交互，本地数据管理，自定义 View 及交互，性能调优经验。对软件工程和项目管理有一定的思考。</dd>
+</dl>
+
+<!-- 团队协作，规范流程，遵守约定，代码质量，渐进重构，code review --></li>
+<li><dl>
+<dt>Beego 服务端开发</dt>
+<dd>具有一定服务端开发经验，包括 RESTful API 设计，TDD，数据库设计等。曾使用 Beego 框架开发过两个服务端项目，分别使用 MongoDB 和 MySQL 数据库存储数据，使用阿里云进行部署。</dd>
+</dl></li>
+<li><dl>
+<dt>React &amp; React Native</dt>
+<dd>正在学习和练习，learn once, write everywhere 的口号非常吸引我，我也正准备借此机会进一步拓展技术栈。</dd>
+</dl></li>
+</ul>
+
+<hr />
+
+<h3 id="technical">技能领域</h3>
+
+<ol>
+<li>Android Development</li>
+<li>Java</li>
+<li>Beego</li>
+<li>React &amp; React Native</li>
+<li>Javascript</li>
+<li>CSS/SASS</li>
+<li>C++</li>
+<li></li>
+<li></li>
+</ol>
+
+<hr />
+
+<h3 id="experience">工作经验</h3>
+
+<dl>
+<dt>北京优络时代科技有限公司</dt>
+<dd>
+<p><em>安卓研发工程师</em>
+<strong>2015.05至今</strong>
+参与负责公司手机视频直播应用 YOLO 安卓客户端的设计、开发与维护；<br />
+从零开始整个项目的发展历程，包括产品形态，安卓客户端架构，后端 API 架构的演进，以及整个公司的发展历程；<br />
+关键业务部分代码多次重构，面向对象与设计模式的最佳实践；<br />
+安卓平台基础知识进一步夯实，成为开源创新和分享精神的践行者；<br />
+逐渐了解后端 API 开发流程，运维部署流程等；</p>
+
+<!-- 网络层升级、API model 和 business model 分离、immutable -->
+</dd>
+
+<dt>学吧（北京）科技发展有限公司</dt>
+<dd><em>安卓研发实习生</em>
+<strong>2014.10至2015.03</strong>
+开发维护公司大学生实名社交应用：YOUNG；安卓自动化测试实践；<br />
+第一次参与商业 APP 项目的开发，敏捷风格配合初创团队的快节奏，深深契合了我寻求技术快速提升的目标，也让我了解了主流创业团队的模式；<br />
+依赖注入，响应式编程，现代化的 REST API 风格等让我跟上了业界先进的水平；<br />
+自动化测试显著降低产品 bug 的数量，提高代码质量，更重要的是，逐步把测试人员从繁琐重复的手工测试中解放出来；</dd>
+
+<dt>百度</dt>
+<dd><em>C++研发实习生</em>
+<strong>2014.08至2014.10</strong>
+参与维护百度内部 SOA 开发平台：SOFA；负责开发维护基于 SOFA 开发的分布式日志系统：PIPAL；<br />
+内推去做 C++ 实习，后来拿到了正式员工 offer；<br />
+了解了典型互联网团队的工作方式，也了解了业务成熟的大公司的工作节奏；<br />
+百度的“同学”关系令我倍感亲切，而每周分享的氛围令我印象深刻；</dd>
+</dl>
+
+<hr />
+
+<h3 id="project"><a href="https://github.com/Piasy/">开源项目</a></h3>
+
+<ul>
+<li><dl>
+<dt><a href="https://github.com/Piasy/AndroidTDDBootStrap">AndroidTDDBootStrap</a></dt>
+<dd>安卓开发工程模板，使用先进工程架构，流行第三方工具/库，遵循业界编码规范，TDD / CI / code quality 支持，旨在让开发者可以快速开启新的项目，同时保持代码质量；</dd>
+</dl></li>
+<li><dl>
+<dt><a href="https://github.com/Piasy/OkBuck">OkBuck</a></dt>
+<dd>一个 Gradle 插件，通过简单几行配置后即可使用 facebook 开源构建系统 BUCK，提升安卓开发者生产力，该插件旨在降低安卓开发者引入 BUCK、使用 BUCK 的门槛，更高效的进行开发；</dd>
+</dl></li>
+<li><dl>
+<dt><a href="https://github.com/Piasy/RxAndroidAudio">RxAndroidAudio</a></dt>
+<dd>对安卓系统音频 API 的封装，并加入 Rx 支持，这可能是目前最鲁棒的 Android 声音录制和播放封装库了；</dd>
+</dl></li>
+</ul>
+
+<hr />
+
+<h3 id="education">教育经历</h3>
+
+<dl>
+<dt>清华大学</dt>
+<dd><em>计算机系，学士学位</em>
+<strong>2011.08至2015.07</strong>
+获得 2011 级新生二等奖学金，表彰高考成绩全省前 5 名；主修课程《数据结构》《设计模式》《计算机网络原理》《操作系统》《搜索引擎》《以服务为中心的软件设计与开发》等；GPA 92.1/100，年级排名 9/123；在实验室参与移动应用安全分析、移动应用云存储优化等方面科研，在《清华学报自然科学版》发表<a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=fbkK3EYAAAAJ&amp;citation_for_view=fbkK3EYAAAAJ:u5HHmVD_uO8C">论文</a>，截至 2016 年中引用量 20 次。</dd>
+</dl>
+
+<hr />
+
+<h3 id="footer">Footer</h3>
+
+<p>许建林 &#8212; <a href="mailto:xz4215@gmail.com">xz4215@gmail.com</a> &#8212; (86) 188-1065-6221 &#8212; <a href="https://github.com/Piasy/">GitHub主页</a> &#8212; <a href="https://www.linkedin.com/in/piasy">LinkedIn主页</a> &#8212; <a href="http://blog.piasy.com/">技术博客</a></p>
+
+<hr />
+
+    </div>
+</div>
+
+</body>
+</html>
