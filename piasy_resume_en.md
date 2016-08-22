@@ -9,7 +9,7 @@
 
 ### Profile {#profile}
 
-I’m Piasy (建林，许). I receive my Bachelor degree on Computer Science in Tsinghua University. Now I'm doing Android development at YOLO, a mobile live streaming app. I appreciate technology, love technology, and enjoy dealing real-life challenge, improving productivity, and making life more colorful, with technology. Now I’m focusing on Android development, but my sight will never be limited in it, instead I’ll be excited to know awesome technologies in every field. I do believe what one of my mentor in college said: We are not genius, but we could become more excellent than most of others with harder working. And I am now on my way to become an expert. My dev blog is [http://blog.piasy.com/](http://blog.piasy.com/), and my Github profile is [https://github.com/Piasy/](https://github.com/Piasy/).
+I’m Piasy (建林，许). I receive my Bachelor degree on Computer Science in Tsinghua University. Now I'm doing Android development at YOLO, a mobile live streaming app. I appreciate technology, love technology, and enjoy dealing real-life challenge, improving productivity, and making life more colorful, with technology. Now I’m focusing on Android development, but my sight will never be limited in it, instead I’ll be excited to know awesome technologies in every field. I do believe what one of my mentor in college said: We are not genius, but we could become more excellent than most of others with harder working. And I am now on my way to become an expert. My dev blog is [http://blog.piasy.com/](http://blog.piasy.com/), and my GitHub profile is [https://github.com/Piasy/](https://github.com/Piasy/).
 
 ------
 
@@ -83,6 +83,6 @@ Tsinghua University
 
 ### Footer {#footer}
 
-Piasy Xu -- [xz4215@gmail.com](mailto:xz4215@gmail.com) -- (86) 188-1065-6221 -- [Girhub page](https://github.com/Piasy/) -- [LinkedIn page](https://www.linkedin.com/in/piasy) -- [Dev blog](http://blog.piasy.com/)
+Piasy Xu -- [xz4215@gmail.com](mailto:xz4215@gmail.com) -- (86) 188-1065-6221 -- [GitHub page](https://github.com/Piasy/) -- [LinkedIn page](https://www.linkedin.com/in/piasy) -- [Dev blog](http://blog.piasy.com/)
 
 ------

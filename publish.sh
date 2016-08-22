@@ -4,5 +4,5 @@
 ./bin/md2resume html piasy_resume_zh.md dist/
 ./bin/md2resume pdf piasy_resume_zh.md dist/
 
-git add . && git commit -m "$1" && git push
+git add . && git commit -m "$1"
 
