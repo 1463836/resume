@@ -1,5 +1,5 @@
 # 许建林
-## 安卓研发工程师
+## 高级软件工程师
 
 > [下载 PDF](resume.pdf)  
 > [xz4215@gmail.com](mailto:xz4215@gmail.com)  
@@ -9,7 +9,7 @@
 
 ### 简介 {#profile}
 
-我是许建林(Piasy)，2015年本科毕业于清华大学计算机系，目前就职于 YOLO，带领安卓团队。我热爱技术，喜欢用技术解决现实生活中的问题。我目前专注于安卓应用开发，但视野不局限于此。我认为和团队一起，解决问题，又快又好，是创业过程中最重要的，要做到这一点，解决问题的思路和能力、学习能力、团队协作是关键。我的技术博客：[http://blog.piasy.com/](http://blog.piasy.com/)，我的 GitHub 个人主页：[https://github.com/Piasy/](https://github.com/Piasy/)。
+我是许建林(Piasy)，2015年本科毕业于清华大学计算机系，目前就职于 Powerinfo，带领客户端 SDK 团队。我热爱技术，喜欢用技术解决现实生活中的问题。我目前专注于流媒体技术，但视野不局限于此。我认为和团队一起，解决问题，又快又好，是创业过程中最重要的，要做到这一点，解决问题的思路和能力、学习能力、团队协作是关键。我的技术博客：[http://blog.piasy.com/](http://blog.piasy.com/)，我的 GitHub 个人主页：[https://github.com/Piasy/](https://github.com/Piasy/)。
 
 ------
 
@@ -36,9 +36,13 @@
 
 ### 工作经验 {#experience}
 
+北京世纪鼎点软件有限公司
+: *高级软件工程师*
+  __2017.02至今__
+
 北京优络时代科技有限公司，初创
 : *安卓研发工程师*
-  __2015.05至今__
+  __2015.05至2017.02__
   1. 负责公司手机视频直播应用 YOLO 安卓客户端的设计、开发与维护；  
   2. 从零开始经历整个项目的发展历程，包括产品形态，安卓客户端架构，后端 API 架构的演进，以及整个公司的发展历程；  
   3. 组建和带领安卓团队，完成产品研发的需求；  
@@ -84,10 +88,10 @@
   __` `__
   一个 Gradle 插件，通过简单几行配置后即可使用 Facebook 开源构建系统 BUCK，提升安卓开发者生产力，该插件旨在降低安卓开发者引入 BUCK、使用 BUCK 的门槛，更高效的进行开发；2016 年 9 月份转让给 Uber；
 
-[RxAndroidAudio](https://github.com/Piasy/RxAndroidAudio)
+[BigImageViewer](https://github.com/Piasy/BigImageViewer)
 : *` `*
   __` `__
-  对安卓系统音频 API 的封装，并加入 Rx 支持，这可能是目前最鲁棒的 Android 声音录制和播放封装库了；
+  组合图片加载库（Fresco，Glide）与大图显示库（Subsampling Scale Image View），图片加载器模块完全解耦，可以轻易添加新的加载器；
 
 [SafelyAndroid](https://github.com/Piasy/SafelyAndroid)
 : *` `*
@@ -103,10 +107,15 @@
 
 ### 教育经历 {#education}
 
+Udacity
+: *深度学习，纳米微学位*
+  _2017.02至2017.05_
+  理解深度学习的基本概念和原理：逻辑回归、梯度下降、反向传播等；学习并实现几种主流深度神经网络模型：CNN，RNN，LSTM，GAN 等；学习使用主流深度学习工具和平台：TensorFlow，Jupyter Notebook，FloyedHub 等；[课程项目地址](https://github.com/Piasy/Udacity-DLND)。
+
 清华大学
 : *计算机系，学士学位*
   __2011.08至2015.07__
-  获得 2011 级新生二等奖学金，表彰高考成绩全省前 5 名；主修课程《数据结构》《设计模式》《计算机网络原理》《操作系统》《搜索引擎》《以服务为中心的软件设计与开发》等；GPA 92.1/100，年级排名 9/123；在实验室参与移动应用安全分析、移动应用云存储优化等方面科研，在《清华学报自然科学版》发表[论文](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=fbkK3EYAAAAJ&citation_for_view=fbkK3EYAAAAJ:u5HHmVD_uO8C)，截至 2016 年中引用量 22 次。
+  获得 2011 级新生二等奖学金，表彰高考成绩全省前 10 名；主修课程《数据结构》《设计模式》《计算机网络原理》《操作系统》《搜索引擎》《以服务为中心的软件设计与开发》等；GPA 92.1/100，年级排名 9/123；在实验室参与移动应用安全分析、移动应用云存储优化等方面科研，在《清华学报自然科学版》发表[论文](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=fbkK3EYAAAAJ&citation_for_view=fbkK3EYAAAAJ:u5HHmVD_uO8C)，截至 2016 年中引用量 22 次。
 
 ------
 

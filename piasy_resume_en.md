@@ -1,6 +1,6 @@
-# Piasy Xu
+# Jianlin Xu
 
-## Android Engineer
+## Senior Software Engineer
 
 > [Download PDF](piasy_resume_en.pdf)  
 > [xz4215@gmail.com](mailto:xz4215@gmail.com)  
@@ -10,7 +10,7 @@
 
 ### Profile {#profile}
 
-I’m Piasy (建林，许). I receive my Bachelor degree on Computer Science in Tsinghua University at 2015. Now I'm leading the Android team at YOLO, a mobile live streaming App. I appreciate technology, and enjoy dealing real-life challenge with technology. Now I’m focusing on Android application development, but my sight will never be limited in it. I think solving valuable problems with team members, efficiently and reliably, is the most important thing when building a product. To achieve this, critical thinking, ability to learn new things, and collaborating with others are key points. My dev blog is [http://blog.piasy.com/](http://blog.piasy.com/), and my GitHub profile is [https://github.com/Piasy/](https://github.com/Piasy/).
+I’m Piasy (Jianlin Xu). I receive my Bachelor degree on Computer Science in Tsinghua University at 2015. Now I'm leading the client SDK team at Powerinfo. I appreciate technology, and enjoy dealing real-life challenge with technology. Now I’m focusing on media streaming technology, but my sight will never be limited in it. I think solving valuable problems with team members, efficiently and reliably, is the most important thing when building a product. To achieve this, critical thinking, ability to learn new things, and collaborating with others are key points. My dev blog is [http://blog.piasy.com/](http://blog.piasy.com/), and my GitHub profile is [https://github.com/Piasy/](https://github.com/Piasy/).
 
 ------
 
@@ -36,6 +36,10 @@ I’m Piasy (建林，许). I receive my Bachelor degree on Computer Science in 
 ------
 
 ### Experience {#experience}
+
+Powerinfo
+: *Senior Software Engineer*
+  __2017.02-now__
 
 Beijing Youluoshidai Technology Co.,Ltd. (Startup)
 : *Android Engineer*
@@ -85,10 +89,10 @@ Baidu, Inc.
   __` `__
   A Gradle plugin, help Android developers to utilize the super fast build system BUCK with several lines configuration. It has been transferred to Uber at Sep. 2016.
 
-[RxAndroidAudio](https://github.com/Piasy/RxAndroidAudio)
+[BigImageViewer](https://github.com/Piasy/BigImageViewer)
 : *` `*
   __` `__
-  Android Audio API encapsulation library, with part Rx support, maybe the most robust Android Audio API encapsulation library.
+  Big image viewer supporting pan and zoom, with very little memory usage and full featured image loading choices. Powered by Subsampling Scale Image View, Fresco, Glide, and Picasso.
 
 [SafelyAndroid](https://github.com/Piasy/SafelyAndroid)
 : *` `*
@@ -104,10 +108,15 @@ Baidu, Inc.
 
 ### Education {#education}
 
+Udacity
+: *Deep Learning Nanodegree Foundation*
+  _2017.02-2017.05_
+  Learn and understand basic idea and principle of deep learning: logistic regression, gradient descent, back propagation, etc. Learn and implement major deep learning networks: CNN, RNN, LSTM, GAN, etc. Use popular deep learning tools and platforms: TensorFlow, Jupyter Notebook, FloyedHub, etc. [Program GitHub repository](https://github.com/Piasy/Udacity-DLND).
+
 Tsinghua University
 : *Bachelor degree on Computer Science*
   __2011-2015__
-  2nd freshman award of 2011 grade, rewarding the top 5 student of each province in the College Entrance Exam; attending courses including Data structure, Design pattern, Computer Network, Operating System, Introduction to Search Engine, Service Oriented Archtecture, etc. GPA is 92.1 in 100, top 9 students in 129; doing research in lab about mobile App sucurity analyse and mobile cloud storage optimization, [publishing one paper](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=fbkK3EYAAAAJ&citation_for_view=fbkK3EYAAAAJ:u5HHmVD_uO8C) on Tsinghua Science and Technology, with 22 citations by middle 2016.
+  2nd freshman award of 2011 grade, rewarding the top 10 student of each province in the College Entrance Exam; attending courses including Data structure, Design pattern, Computer Network, Operating System, Introduction to Search Engine, Service Oriented Archtecture, etc. GPA is 92.1 in 100, top 9 students in 129; doing research in lab about mobile App sucurity analyse and mobile cloud storage optimization, [publishing one paper](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=fbkK3EYAAAAJ&citation_for_view=fbkK3EYAAAAJ:u5HHmVD_uO8C) on Tsinghua Science and Technology, with 22 citations by middle 2016.
 
 ------
 
