@@ -10,7 +10,7 @@
 
 ### Profile {#profile}
 
-I’m Piasy (Jianlin Xu). I receive my Bachelor degree on Computer Science in Tsinghua University at 2015. Now I'm leading the client SDK team at Powerinfo. I appreciate technology, and enjoy dealing real-life challenge with technology. Now I’m focusing on media streaming technology, but my sight will never be limited in it. I think solving valuable problems with team members, efficiently and reliably, is the most important thing when building a product. To achieve this, critical thinking, ability to learn new things, and collaborating with others are key points. My dev blog is [http://blog.piasy.com/](http://blog.piasy.com/), and my GitHub profile is [https://github.com/Piasy/](https://github.com/Piasy/).
+I’m Piasy (Jianlin Xu). I receive my Bachelor degree on Computer Science in Tsinghua University at 2015. Now I'm leading the client SDK team at PowerInfo. I appreciate technology, and enjoy dealing real-life challenge with technology. Now I’m focusing on media streaming technology, but my sight will never be limited in it. I think solving valuable problems with team members, efficiently and reliably, is the most important thing when building a product. To achieve this, critical thinking, ability to learn new things, and collaborating with others are key points. My dev blog is [http://blog.piasy.com/](http://blog.piasy.com/), and my GitHub profile is [https://github.com/Piasy/](https://github.com/Piasy/).
 
 ------
 
