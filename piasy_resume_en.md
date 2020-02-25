@@ -1,127 +1,126 @@
-# Jianlin Xu
+% Jianlin Xu
 
-## Senior Software Engineer
+----
 
-> [Download PDF](piasy_resume_en.pdf)  
-> [xz4215@gmail.com](mailto:xz4215@gmail.com)  
-> (86) 188-1065-6221
+> **Senior Software Engineer**
+> \
+> \
+> I’m Piasy (Jianlin Xu). I receive my Bachelor degree on Computer Science in Tsinghua University at 2015.
+> Now I'm leading the client SDK team at PowerInfo.
+> I appreciate technology, and enjoy dealing real-life challenge with technology.
+> I appreciate technology, and enjoy dealing real-life challenge with technology. Now I’m focusing on RTC technology, but my sight will never be limited in it.
+> I think solving valuable problems with team members, efficiently and reliably, is the most important thing when building a product.
+> To achieve this, critical thinking, ability to learn new things, and collaborating with others are key points.
+> My dev blog is [https://blog.piasy.com/](https://blog.piasy.com/), and my GitHub profile is [https://github.com/Piasy/](https://github.com/Piasy/).
 
-------
+----
 
-### Profile {#profile}
+Skill
+-------------------------
 
-I’m Piasy (Jianlin Xu). I receive my Bachelor degree on Computer Science in Tsinghua University at 2015. Now I'm leading the client SDK team at PowerInfo. I appreciate technology, and enjoy dealing real-life challenge with technology. Now I’m focusing on media streaming technology, but my sight will never be limited in it. I think solving valuable problems with team members, efficiently and reliably, is the most important thing when building a product. To achieve this, critical thinking, ability to learn new things, and collaborating with others are key points. My dev blog is [http://blog.piasy.com/](http://blog.piasy.com/), and my GitHub profile is [https://github.com/Piasy/](https://github.com/Piasy/).
+RTC development
+:   3 years experience on RTC SDK development, mainly on Android, also on iOS, Windows, TX2 and backend; audio capture and playback, video capture and render, audio and video encode & decode, FFmpeg, WebRTC, OWT, performance tuning; multiplatform, J2ObjC, Kotlin Multiplatform.
 
-------
+----
 
-### Skills {#skills}
+Android development
+:   2 years experience on App development, with practice about architecture, TDD, reactive programming(I'm RxJava fan), RESTful API call, local data management, custom view and interaction, and performance tuning.
 
-* Android Development
-  : 2 years experience on App development, with practice about architecture, TDD, reactive programming(I'm RxJava fan), RESTful API call, local data management, custom view and interaction, and performance tuning.
+----
 
-* Project management
-  : Some experience on project management, including task scheduling, team member collaborating, improving workflow, CI and CD, code quality, code review and progressive refactoring.
+Project management
+:   Some experience on project management, including task scheduling, team member collaborating, improving workflow, CI and CD, code quality, code review and progressive refactoring.
 
-* Golang web backend
-  : Some experience about building RESTful API server, TDD and database design. I'v built two RESTful API servers with Beego framework, storing data in MongoDB and MySQL database, deployed at Aliyun cloud.
+----
 
--------
+Backend development
+:   Some experience about building RESTful API server, TDD and database design. I'v built two RESTful API servers with Beego framework, storing data in MongoDB and MySQL database, and one RTC signaling server with Flask + Redis, all deployed at Aliyun cloud.
 
-### Technical {#technical}
+Technical
+-------------------------
 
-1. Android Development
-1. Java
-1. Beego
+RTC, Android, Java, C/C++, Kotlin
 
-------
+Experience
+--------------------
 
-### Experience {#experience}
+2017.02 - now
+:   *Senior Software Engineer*, PowerInfo
 
-Powerinfo
-: *Senior Software Engineer*
-  __2017.02-now__
+    Design, develop and maintain RTC streaming module on Android;  
+    Rebuild RTC streaming module on all platforms, Android, iOS, Windows, Linux, with C++ (work in progress);  
+    Build iLive interactive SDK from scratch, including Android, iOS, Windows and signaling server;  
+    Research and commercializing on new platforms and new technologies;  
 
-Beijing Youluoshidai Technology Co.,Ltd. (Startup)
-: *Android Engineer*
-  __2015.05-now__
-  1. Design, develop and maintain the company App Android client: YOLO, a mobile live streaming App.  
-  2. Participate the project from scratch, including prototyping, Android client architecture design and improvement, backend architecture improvement, and evolvement of the whole company.  
-  3. Build and lead the Android team, continuously delivering our Android App.  
-  4. Refactor the essential part of Android project, follow the best practice of OOP and design pattern.  
-  5. Keep improving my knowledge on Android platform, and become a fan of open source, innovation, and knowledge sharing. Giving a public talk about [Android model layer architecture at GDG Android Meetup](https://github.com/Piasy/talks/tree/master/GDGMeetUp_20160807).  
-  6. Learn about procedure of backend API development and deployment.
+    Keywords: RTC, MediaCodec, OpenGL ES, performance tuning, multiplatform, to B
 
-  Keywords: [Network layer architecture](http://blog.piasy.com/2016/08/29/RESTful-Android-Network-Solution-1/)、[Model layer architecture](http://blog.piasy.com/2016/05/06/Perfect-Android-Model-Layer/)、[YaMvp](https://github.com/Piasy/YaMvp)、IM integration、Camera input(open source soon)、[Voice input and output](https://github.com/Piasy/RxAndroidAudio)、TDD、[OkBuck](https://github.com/uber/okbuck)、[AndroidTDDBootStrap](https://github.com/Piasy/AndroidTDDBootStrap)、[Understand great libraries](http://blog.piasy.com/tags/#拆轮子)、Entrepreneurship is hard
+----
 
+2015.05 - 2017.02
+:   *Android R&D Engineer*, Beijing Youluoshidai Technology Co.,Ltd. (Startup)
 
-XueBa(Beijing) technology development Co., LTD (Startup)
-: *R&D Internship*
-  __2014.10-2015.03__
-  1. Develop and maintain the Android client of college student social App: Young;   
-  2. Android automated UI testing(using Espresso test kit);  
-  3. My first time attending production project, the moving fast style meets my pursuing of technical skill very well. And I also learn about how startup works.  
-  4. Dependency injection, reactive programming, and RESTful API... all those modern developing ways catch me up.  
-  5. Introduce automated testing into project, build reliable App more efficiently.
+    Design, develop and maintain the company App Android client, YOLO, a mobile live streaming App;  
+    Participate the project from scratch, including prototyping, Android client architecture design and improvement, backend architecture improvement, and evolvement of the whole company;  
+    Build and lead the Android team, continuously delivering our Android App;  
+    Refactor the essential part of Android project, follow the best practice of OOP and design pattern;  
+    Keep improving my knowledge on Android platform, and become a fan of open source, innovation, and knowledge sharing. Giving a public talk about [Android model layer architecture at GDG Android Meetup](https://github.com/Piasy/talks/tree/master/GDGMeetUp_20160807), and a talk about [RxJava at Droidcon Beijing](https://github.com/Piasy/talks/tree/master/Droidcon_Beijing_20161117);  
+    Learn about procedure of backend API development and deployment;  
 
-  Keywords: automated testing、reactive programming、dependency injection、RESTful API、agile development、moving fast
+    Keywords: [Network layer architecture](http://blog.piasy.com/2016/08/29/RESTful-Android-Network-Solution-1/), [Model layer architecture](http://blog.piasy.com/2016/05/06/Perfect-Android-Model-Layer/), [RxJava](https://blog.piasy.com/AdvancedRxJava/index.html), [YaMvp](https://github.com/Piasy/YaMvp), IM integration, [Camera capture](https://github.com/Piasy/CameraCompat), [Audio capture and playback](https://github.com/Piasy/RxAndroidAudio), TDD, [OkBuck](https://github.com/Piasy/OkBuck), [AndroidTDDBootStrap](https://github.com/Piasy/AndroidTDDBootStrap), [Understand great libraries](http://blog.piasy.com/tags/#拆轮子), Entrepreneurship is hard
 
-Baidu, Inc.
-: *R&D Internship*
-  __2014.08-2014.10__
-  1. Maintain a log service system: pipal;   
-  2. Understand the Service Oriented Flyweight Architecture system: sofa;  
-  3. Learn about how big company in China works, and the daily workflow of them.  
-  4. Their weekly internal knowledge sharing is really great!
+----
 
-  Keywords: big company、knowledge sharing
+2014.10 - 2015.03
+:   *Android R&D Internship*, XueBa(Beijing) technology development Co., LTD (Startup)
 
-------
+    Develop and maintain the Android client of college student social App: Young;  
+    Android automated UI testing(using Espresso test kit);  
+    My first time attending production project, the moving fast style meets my pursuing of technical skill very well. And I also learn about how startup works;  
+    Dependency injection, reactive programming, and RESTful API... all those modern developing ways catch me up;  
+    Introduce automated testing into project, build reliable App more efficiently;  
 
-### [Open Source](https://github.com/Piasy/) {#project}
+    Keywords: automated testing, reactive programming, dependency injection, RESTful API, agile development, moving fast
 
-[AndroidTDDBootStrap](https://github.com/Piasy/AndroidTDDBootStrap)
-: *` `*
-  __` `__
-  An Android TDD bootstrap project, with well designed architecture and collection of awesome libraries, including TDD / code coverage / CI / code quality integration. Aiming to be a good start point of new project, with practice and feedback from two production project.
+Personal Project
+-------------------------
 
-[OkBuck](https://github.com/Piasy/OkBuck)
-: *` `*
-  __` `__
-  A Gradle plugin, help Android developers to utilize the super fast build system BUCK with several lines configuration. It has been transferred to Uber at Sep. 2016.
+[AvConf](https://github.com/Piasy/AvConf): A realtime multi-party video call SDK based on WebRTC, it utilizes Kotlin Multiplatform to reuse business logic on multiple platforms. It works on OWT, but it's easy to add support for other SFU/MCU server.
 
-[BigImageViewer](https://github.com/Piasy/BigImageViewer)
-: *` `*
-  __` `__
-  Big image viewer supporting pan and zoom, with very little memory usage and full featured image loading choices. Powered by Subsampling Scale Image View, Fresco, Glide, and Picasso.
+----
 
-[SafelyAndroid](https://github.com/Piasy/SafelyAndroid)
-: *` `*
-  __` `__
-  Build safely Android App, no more Activity not found, Activity state loss and NPE during fragment transaction!
+WebRTC Native 开发实战: The first technical book explaining details inside WebRTC and WebRTC development on native platforms in the world.
 
-[AdvancedRxJava](https://github.com/Piasy/AdvancedRxJava)
-: *` `*
-  __` `__
-  The Chinese translation of blog series Advanced Reactive Java  [http://akarnokd.blogspot.com/](http://akarnokd.blogspot.com/).
+----
 
-------
+[BigImageViewer](https://github.com/Piasy/BigImageViewer): Big image viewer supporting pan and zoom, with very little memory usage and full featured image loading choices. Powered by Subsampling Scale Image View, Fresco, Glide, and Picasso.
 
-### Education {#education}
+----
 
-Udacity
-: *Deep Learning Nanodegree Foundation*
-  _2017.02-2017.05_
-  Learn and understand basic idea and principle of deep learning: logistic regression, gradient descent, back propagation, etc. Learn and implement major deep learning networks: CNN, RNN, LSTM, GAN, etc. Use popular deep learning tools and platforms: TensorFlow, Jupyter Notebook, FloyedHub, etc. [Program GitHub repository](https://github.com/Piasy/Udacity-DLND).
+[AdvancedRxJava](https://github.com/Piasy/AdvancedRxJava): The Chinese translation of blog series Advanced Reactive Java  [http://akarnokd.blogspot.com/](http://akarnokd.blogspot.com/), including 46 posts. It takes 13 months.
 
-Tsinghua University
-: *Bachelor degree on Computer Science*
-  __2011-2015__
-  2nd freshman award of 2011 grade, rewarding the top 10 student of each province in the College Entrance Exam; attending courses including Data structure, Design pattern, Computer Network, Operating System, Introduction to Search Engine, Service Oriented Archtecture, etc. GPA is 92.1 in 100, top 9 students in 129; doing research in lab about mobile App sucurity analyse and mobile cloud storage optimization, [publishing one paper](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=fbkK3EYAAAAJ&citation_for_view=fbkK3EYAAAAJ:u5HHmVD_uO8C) on Tsinghua Science and Technology, with 22 citations by middle 2016.
+----
 
-------
+[OkBuck](https://github.com/Piasy/OkBuck): A Gradle plugin, help Android developers to utilize the super fast build system BUCK with several lines configuration. It has been transferred to Uber at Sep. 2016.
 
-### Footer {#footer}
+Education
+---------
 
-Piasy Xu -- [xz4215@gmail.com](mailto:xz4215@gmail.com) -- (86) 188-1065-6221 -- [GitHub page](https://github.com/Piasy/) -- [LinkedIn page](https://www.linkedin.com/in/piasy) -- [Dev blog](http://blog.piasy.com/) -- [中文版](../index.html)
+2017.02 - 2017.05
+:   *Udacity, Deep Learning Nanodegree Foundation*
 
-------
+    Learn and understand basic idea and principle of deep learning: logistic regression, gradient descent, back propagation, etc. Learn and implement major deep learning networks: CNN, RNN, LSTM, GAN, etc. Use popular deep learning tools and platforms: TensorFlow, Jupyter Notebook, FloyedHub, etc. [Program GitHub repository](https://github.com/Piasy/Udacity-DLND).
+
+----
+
+2011.08 - 2015.07
+:   *Tsinghua University, Bachelor degree on Computer Science*
+
+    2nd freshman award of 2011 grade, rewarding the top 10 student of each province in the College Entrance Exam; attending courses including Data structure, Design pattern, Computer Network, Operating System, Introduction to Search Engine, Service Oriented Archtecture, etc. GPA is 92.1 in 100, top 9 students in 129; doing research in lab about mobile App sucurity analyse and mobile cloud storage optimization, [publishing one paper](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=fbkK3EYAAAAJ&citation_for_view=fbkK3EYAAAAJ:u5HHmVD_uO8C) on Tsinghua Science and Technology, with 22 citations by middle 2016.
+
+----
+
+> <xz4215@gmail.com> • +86 188 1065 6221\
+> \
+> [PDF version](piasy_resume_en.pdf) •
+> [中文版](index.html) •
+> [LinkedIn page](https://www.linkedin.com/in/piasy)
