@@ -5,12 +5,12 @@
 > **Senior Software Engineer**
 > \
 > \
-> I’m Piasy (Jianlin Xu). I receive my Bachelor degree on Computer Science in Tsinghua University at 2015.
-> Now I'm leading the client SDK team at PowerInfo.
-> I appreciate technology, and enjoy dealing real-life challenge with technology.
-> I’m focusing on RTC technology currently, but my sight will never be limited in it.
-> I think solving valuable problems with team members, efficiently and reliably, is the most important thing when building a product.
-> To achieve this, critical thinking, ability to learn new things, and collaborating with others are key points.
+> I'm Piasy (Jianlin Xu), a fullstack hacker, open source fan, and knowledge sharer.
+> My development experiences cover Android, iOS, Windows, TX2, and backend, and I'm focusing on RTC technology currently, both client side and server side.
+> I have 1.9K followers on GitHub, and projects with about 10K stars in total.
+> I gave many talks on technical conferences, including a good model & network layer architecture in Android application on GDG Beijing meetup, and RxJava on Droidcon Beijing, 2016.
+> I graduated from the best University in China, Tsinghua University, majored in CS.
+> My book, which is the first technical book explaining details inside WebRTC and WebRTC development on native platforms in the world, is publishing.
 > My dev blog is [https://blog.piasy.com/](https://blog.piasy.com/), and my GitHub profile is [https://github.com/Piasy/](https://github.com/Piasy/).
 
 ----
@@ -19,27 +19,33 @@ Skill
 -------------------------
 
 RTC development
-:   3 years experience dedicated on RTC SDK development, mainly on Android, also on iOS, Windows, TX2 and backend; audio capture & playback, video capture & render, audio & video encode & decode, FFmpeg, WebRTC, OWT, performance tuning; multiplatform, J2ObjC, Kotlin Multiplatform.
+:   3 years of experience dedicated to RTC SDK development, mainly on Android, also on iOS, Windows, TX2 and backend; audio capture & playback, video capture & render, audio & video encode & decode, FFmpeg, WebRTC, OWT, performance tuning; multiplatform, J2ObjC, Kotlin Multiplatform.
 
 ----
 
 Android development
-:   2 years experience dedicated on App development, with practice about architecture, TDD, reactive programming(I'm RxJava fan), RESTful API call, local data management, custom view and interaction, and performance tuning.
+:   2 years of experience dedicated to App development, with practice about architecture, TDD, reactive programming(I'm RxJava fan), RESTful API call, local data management, custom view and interaction, and performance tuning.
 
 ----
 
 Project management
-:   Some experience on project management, including task scheduling, team member collaborating, improving workflow, CI and CD, code quality, code review and progressive refactoring.
+:   1 year of experience in project management, including task scheduling, team member collaborating, improving workflow, CI and CD, code quality, code review and progressive refactoring.
 
 ----
 
 Backend development
-:   Some experience about building RESTful API server, TDD and database design. I'v built two RESTful API servers with Beego framework, storing data in MongoDB and MySQL database, and one RTC signaling server with Flask + Redis, all deployed at Aliyun cloud.
+:   2 years of experience in building RESTful API server, TDD and database design. I'v built two RESTful API servers with Beego framework, storing data in MongoDB and MySQL database, and one RTC signaling server with Flask + Redis, all deployed at Aliyun cloud.
 
 Tech stack
 -------------------------
 
-RTC, Android, Java, C/C++, Kotlin
+|         |               |     |
+|---------|---------------|-----|
+| RTC     |               |★★★★☆|
+| Android |               |★★★★☆|
+| Java    |               |★★★★☆|
+| C/C++   |               |★★★☆☆|
+| Kotlin  |               |★★★☆☆|
 
 Experience
 --------------------
@@ -92,33 +98,26 @@ Experience
 Personal Project
 -------------------------
 
-AvConf (Open Source soon): A realtime multi-party video call SDK based on WebRTC, it utilizes Kotlin Multiplatform to reuse business logic on multiple platforms. It works on OWT, but it's easy to add support for other SFU/MCU server.
+AvConf (Open Source soon), 2018.08 - now: A realtime multi-party video call SDK based on WebRTC, it utilizes Kotlin Multiplatform to reuse business logic on multiple platforms. It supports OWT server now, but it's easy to add support for other SFU/MCU server.
 
 ----
 
-WebRTC Native 开发实战 (Publishing): The first technical book explaining details inside WebRTC and WebRTC development on native platforms in the world.
+WebRTC Native 开发实战 (Publishing), 2019.01 - 2020.08: The first technical book explaining details inside WebRTC and WebRTC development on native platforms in the world.
 
 ----
 
-[BigImageViewer](https://github.com/Piasy/BigImageViewer): Big image viewer supporting pan and zoom, with very little memory usage and full featured image loading choices. Powered by Subsampling Scale Image View, Fresco, Glide, and Picasso.
+[BigImageViewer](https://github.com/Piasy/BigImageViewer), 2016.11 - now: Big image viewer supporting pan and zoom, with very little memory usage and full featured image loading choices. Powered by Subsampling Scale Image View, Fresco, Glide, and Picasso.
 
 ----
 
-[AdvancedRxJava](https://github.com/Piasy/AdvancedRxJava): The Chinese translation of blog series Advanced Reactive Java  [http://akarnokd.blogspot.com/](http://akarnokd.blogspot.com/), including 46 posts. It takes 13 months.
+[AdvancedRxJava](https://github.com/Piasy/AdvancedRxJava), 2016.05 - 2017.06: The Chinese translation of blog series Advanced Reactive Java  [http://akarnokd.blogspot.com/](http://akarnokd.blogspot.com/), including 46 posts. It takes 13 months.
 
 ----
 
-[OkBuck](https://github.com/Piasy/OkBuck): A Gradle plugin, help Android developers to utilize the super fast build system BUCK with several lines configuration. It has been transferred to Uber at Sep. 2016.
+[OkBuck](https://github.com/Piasy/OkBuck), 2015.10 - 2016.09: A Gradle plugin, help Android developers to utilize the super fast build system BUCK with several lines configuration. It has been transferred to Uber at Sep. 2016.
 
 Education
 ---------
-
-2017.02 - 2017.05
-:   *Udacity, Deep Learning Nanodegree Foundation*
-
-    Learn and understand basic idea and principle of deep learning: logistic regression, gradient descent, back propagation, etc. Learn and implement major deep learning networks: CNN, RNN, LSTM, GAN, etc. Use popular deep learning tools and platforms: TensorFlow, Jupyter Notebook, FloyedHub, etc. [Program GitHub repository](https://github.com/Piasy/Udacity-DLND).
-
-----
 
 2011.08 - 2015.07
 :   *Tsinghua University, Bachelor degree on Computer Science*

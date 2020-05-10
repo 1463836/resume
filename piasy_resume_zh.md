@@ -5,9 +5,12 @@
 > **高级软件工程师**
 > \
 > \
-> 我是许建林 (Piasy)，2015 年本科毕业于清华大学计算机系，目前就职于 PowerInfo，带领客户端 SDK 团队。
-> 我热爱技术，喜欢用技术解决现实生活中的问题。我目前专注于实时多媒体领域，但视野不局限于此。
-> 我认为和团队一起又快又好地解决问题，在创业过程中是最重要的，要做到这一点，解决问题的思路和能力、学习能力、团队协作是关键。
+> 我是许建林 (Piasy)，全栈黑客，开源爱好者，知识分享者。
+> 我的开发经验涵盖 Android, iOS, Windows, TX2 以及后端，目前我专注于实时多媒体领域，包括客户端和服务端。
+> 我在 GitHub 有 1.9K 关注者，项目累计标星近 10K。
+> 我曾在多个技术会议上发表演讲，包括在 GDG Beijing meetup 上分享「近乎完美的 Android Model 层架构」，在 Droidcon Beijing 2016 分享 RxJava 议题。
+> 我毕业自清华大学计算机系。
+> 我的专著——全球首本揭秘 WebRTC 技术内幕、实战 WebRTC Native 开发的技术书籍——正在出版中。
 > 我的技术博客：[https://blog.piasy.com/](https://blog.piasy.com/)，我的 GitHub 个人主页：[https://github.com/Piasy/](https://github.com/Piasy/)。
 
 ----
@@ -16,27 +19,33 @@
 -------------------------
 
 实时多媒体开发
-:   三年纯实时多媒体 SDK 开发经验（安卓为主，iOS、Windows、TX2、后端均有涉及），音频采集播放、视频采集渲染、音视频编解码、FFmpeg、WebRTC、OWT，性能调优；代码多平台复用，J2ObjC、Kotlin Multiplatform。
+:   三年专注实时多媒体 SDK 开发经验（安卓为主，iOS、Windows、TX2、后端均有涉及），音频采集播放、视频采集渲染、音视频编解码、FFmpeg、WebRTC、OWT，性能调优；代码多平台复用，J2ObjC、Kotlin Multiplatform。
 
 ----
 
 安卓 App 开发
-:   两年纯安卓 App 开发经验，具有扎实的 App 架构、TDD、响应式编程、RESTful API 交互、本地数据管理、自定义 View 及交互、性能调优经验。
+:   两年专注安卓 App 开发经验，具有扎实的 App 架构、TDD、响应式编程、RESTful API 交互、本地数据管理、自定义 View 及交互、性能调优经验。
 
 ----
 
 项目管理
-:   对项目管理有一定经验，包括进度管理，团队协作，规范流程，持续集成和持续交付，代码质量，code review，渐进重构。
+:   近一年项目管理经验，包括进度管理，团队协作，规范流程，持续集成和持续交付，代码质量，code review，渐进重构。
 
 ----
 
 服务端开发
-:   具有一定服务端开发经验，包括 RESTful API 设计，TDD，数据库设计等；曾使用 Beego 框架开发过两个服务端项目，分别使用 MongoDB 和 MySQL 数据库存储数据；使用 Flask + Redis 开发信令服务器；均使用阿里云进行部署。
+:   近两年服务端开发经验，包括 RESTful API 设计，TDD，数据库设计等；曾使用 Beego 框架开发过两个服务端项目，分别使用 MongoDB 和 MySQL 数据库存储数据；使用 Flask + Redis 开发信令服务器；均使用阿里云进行部署。
 
 技术栈
 -------------------------
 
-RTC，Android，Java，C/C++，Kotlin
+|         |               |     |
+|---------|---------------|-----|
+| RTC     |               |★★★★☆|
+| Android |               |★★★★☆|
+| Java    |               |★★★★☆|
+| C/C++   |               |★★★☆☆|
+| Kotlin  |               |★★★☆☆|
 
 工作经验
 --------------------
@@ -88,33 +97,26 @@ RTC，Android，Java，C/C++，Kotlin
 个人项目
 -------------------------
 
-AvConf（即将开源）：基于 WebRTC 的多人实时音视频通话 SDK，利用 Kotlin Multiplatform 实现业务逻辑代码多平台复用，目前对接 OWT，可以很方便地对接其他 SFU/MCU 框架。
+AvConf（即将开源），2018.08 至今：基于 WebRTC 的多人实时音视频通话 SDK，利用 Kotlin Multiplatform 实现业务逻辑代码多平台复用，目前对接 OWT server，可以很方便地对接其他 SFU/MCU 框架。
 
 ----
 
-WebRTC Native 开发实战（出版中）：全球首本深入解析 WebRTC 内部原理和 WebRTC Native 实战的技术书籍。
+WebRTC Native 开发实战（出版中），2019.01 至 2020.08：全球首本深入解析 WebRTC 内部原理和 WebRTC Native 实战的技术书籍。
 
 ----
 
-[BigImageViewer](https://github.com/Piasy/BigImageViewer)：组合图片加载库（Fresco，Glide）与大图显示库（Subsampling Scale Image View），图片加载器模块完全解耦，可以轻易添加新的加载器。
+[BigImageViewer](https://github.com/Piasy/BigImageViewer)，2016.11 至今：组合图片加载库（Fresco，Glide）与大图显示库（Subsampling Scale Image View），图片加载器模块完全解耦，可以轻易添加新的加载器。
 
 ----
 
-[AdvancedRxJava](https://github.com/Piasy/AdvancedRxJava)：Advanced RxJava [http://akarnokd.blogspot.com/](http://akarnokd.blogspot.com/) 系列 46 篇博客的中文翻译，持续 13 个月，加深自己对 RxJava 原理理解的同时，造福国内开发者。
+[AdvancedRxJava](https://github.com/Piasy/AdvancedRxJava)，2016.05 至 2017.06：Advanced RxJava [http://akarnokd.blogspot.com/](http://akarnokd.blogspot.com/) 系列 46 篇博客的中文翻译，持续 13 个月，加深自己对 RxJava 原理理解的同时，造福国内开发者。
 
 ----
 
-[OkBuck](https://github.com/Piasy/OkBuck)：一个 Gradle 插件，通过简单几行配置后即可使用 Facebook 开源构建系统 BUCK，提升安卓开发者生产力，该插件旨在降低安卓开发者引入和使用 BUCK 的门槛，更高效的进行开发；2016 年 9 月份转让给 Uber。
+[OkBuck](https://github.com/Piasy/OkBuck)，2015.10 至 2016.09：一个 Gradle 插件，通过简单几行配置后即可使用 Facebook 开源构建系统 BUCK，提升安卓开发者生产力，该插件旨在降低安卓开发者引入和使用 BUCK 的门槛，更高效的进行开发；2016 年 9 月份转让给 Uber。
 
 教育经历
 ---------
-
-2017.02 至 2017.05
-:   *Udacity，深度学习，纳米微学位*
-
-    理解深度学习的基本概念和原理：逻辑回归、梯度下降、反向传播等；学习并实现几种主流深度神经网络模型：CNN，RNN，LSTM，GAN 等；学习使用主流深度学习工具和平台：TensorFlow，Jupyter Notebook，FloyedHub 等；[课程项目地址](https://github.com/Piasy/Udacity-DLND)。
-
-----
 
 2011.08 至 2015.07
 :   *清华大学，计算机系，学士学位*
