@@ -10,7 +10,7 @@
 > I have 1.9K followers on GitHub, and projects with about 10K stars in total.
 > I gave many talks on technical conferences, including a good model & network layer architecture in Android application on GDG Beijing meetup, and RxJava on Droidcon Beijing, 2016.
 > I graduated from the best University in China, Tsinghua University, majored in CS.
-> My book, which is the first technical book explaining details inside WebRTC and WebRTC development on native platforms in the world, is publishing.
+> My book, which is the first technical book in the world explaining details inside WebRTC and WebRTC development on native platforms, is publishing.
 > My dev blog is [https://blog.piasy.com/](https://blog.piasy.com/), and my GitHub profile is [https://github.com/Piasy/](https://github.com/Piasy/).
 
 ----
@@ -39,13 +39,14 @@ Backend development
 Tech stack
 -------------------------
 
-|         |               |     |
-|---------|---------------|-----|
-| RTC     |               |★★★★☆|
-| Android |               |★★★★☆|
-| Java    |               |★★★★☆|
-| C/C++   |               |★★★☆☆|
-| Kotlin  |               |★★★☆☆|
+|         |               |     |      |             |               |     |
+|---------|---------------|-----|------|-------------|---------------|-----|
+| RTC     |               |★★★★☆|      | Objective-C |               |★★★☆☆|
+| Android |               |★★★★☆|      | Python      |               |★★★☆☆|
+| Java    |               |★★★★☆|      | Golang      |               |★★☆☆☆|
+| C/C++   |               |★★★☆☆|      | Javascript  |               |★★☆☆☆|
+| Kotlin  |               |★★★☆☆|      | Lua         |               |★★☆☆☆|
+| Flutter |               |★★☆☆☆|      | Any programming language |  |I can get hands on quickly|
 
 Experience
 --------------------
@@ -98,7 +99,7 @@ Experience
 Personal Project
 -------------------------
 
-AvConf (Open Source soon), 2018.08 - now: A realtime multi-party video call SDK based on WebRTC, it utilizes Kotlin Multiplatform to reuse business logic on multiple platforms. It supports OWT server now, but it's easy to add support for other SFU/MCU server.
+AvConf (Open source soon), 2018.08 - now: A realtime multi-party video call SDK based on WebRTC, it utilizes Kotlin Multiplatform to reuse business logic on multiple platforms. It supports OWT server now, but it's easy to add support for other SFU/MCU server.
 
 ----
 
@@ -127,7 +128,6 @@ Education
 ----
 
 > <xz4215@gmail.com> • +86 188 1065 6221\
-> \
 > [PDF version](piasy_resume_en.pdf) •
 > [中文版](index.html) •
 > [LinkedIn page](https://www.linkedin.com/in/piasy)
